@@ -1,15 +1,14 @@
-import React from "react";
 import { BrowserRouter} from "react-router-dom";
-import { CcsBaseline } from "@mui/material";
-import Routes from "./page/routes";
+import { CssBaseline } from "@mui/material";
+import Routes from "./pages/routes";
 
 function App() {
   return (
-    <CcsBaseline>
+    <CssBaseline>
       <BrowserRouter>
         <Routes />
       </BrowserRouter>
-    </CcsBaseline>
+    </CssBaseline>
   )
 }
 
