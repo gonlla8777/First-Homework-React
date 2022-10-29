@@ -14,7 +14,7 @@ function FetchList() {
   return (
     <>
     <Grid container spacing={1}>
-    <Card sx={{minWidth:500}}>
+    <Card sx={{minWidth:500, margin:0.5}}>
           <CardContent>
               <Avatar sx={{ bgcolor: deepPurple[500] }} aria-label="recipe">
                   F
@@ -33,7 +33,7 @@ function FetchList() {
               <Link size="small" to="/fetch-list">GO TO FetchList</Link>
           </CardActions>
       </Card>
-      <Card sx={{minWidth:500, marginLeft: 5}}>
+      <Card sx={{minWidth:500, margin:0.5}}>
               <CardContent>
                   <Avatar sx={{ bgcolor: deepPurple[500] }} aria-label="recipe">
                       T
