@@ -4,8 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Link } from "react-router-dom";
-import Avatar from '@mui/material/Avatar';
-import { deepPurple } from '@mui/material/colors';
+
 
 const Todo = () => {
     return (
